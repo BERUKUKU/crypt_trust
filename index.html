@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas Reserve — Singapore Digital Asset Trust</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- ── HEADER ── -->
+<header>
+  <div class="header-inner">
+    <a href="#hero" class="logo">
+      <div class="logo-icon" aria-hidden="true">
+        <svg viewBox="0 0 64 64" class="logo-mark">
+          <text x="14" y="45" font-size="38" font-weight="700" font-family="Georgia, serif" fill="currentColor">A</text>
+          <path d="M47.8 12.2l2.3 4.8 5.3.7-3.8 3.7.9 5.2-4.7-2.5-4.7 2.5.9-5.2-3.8-3.7 5.3-.7z"/>
+        </svg>
+      </div>
+      <div>
+        <div class="logo-text">Atlas Reserve</div>
+        <div class="logo-sub">SINGAPORE</div>
+      </div>
+    </a>
+    <nav>
+      <a href="#services">サービス</a>
+      <a href="#process">仕組み</a>
+      <a href="#operating">運用体制</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="nav-cta">プライベート相談</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-orb hero-orb1"></div>
+  <div class="hero-orb hero-orb2"></div>
+  <div class="hero-grid-bg"></div>
+
+  <div class="hero-inner">
+    <!-- LEFT: text + mobile carousel + buttons -->
+    <div class="hero-left">
+      <div class="hero-badge fade-in">
+        <span class="hero-badge-dot"></span>
+        Singapore Digital Asset Trust
+      </div>
+      <div class="hero-micro fade-in">PRIVATE CLIENT DIGITAL TRUST · SINCE 2026</div>
+      <div class="hero-rule fade-in"></div>
+      <h1 class="hero-h1 fade-in">
+        <span class="hero-glow-text">世代を超えて継承する</span>
+        <span class="hero-shimmer">デジタル資産の安心<span class="hero-keep">設計</span></span>
+      </h1>
+      <p class="hero-p fade-in">シンガポールを拠点とする、富裕層のためのデジタル資産信託サービス。取引所ではなく、次世代へ確実に継承できる信託構造をご提供いたします。</p>
+      <div class="hero-market-meta fade-in" id="hero-market-meta">Market data: CoinMarketCap (loading...)</div>
+
+      <!-- Mobile horizontal scrolling cards -->
+      <div class="carousel-wrap fade-in">
+        <div class="carousel-track">
+          <!-- BTC -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(247,147,26,0.55),rgba(255,255,255,0.15));border:1px solid rgba(247,147,26,0.7);box-shadow:0 4px 28px rgba(247,147,26,0.5)">
+            <div class="c-card-top"><div><div class="c-card-name">Bitcoin</div><div class="c-card-ticker">BTC</div></div>
+            <div class="c-card-icon" style="background:rgba(247,147,26,0.2);border:1px solid rgba(247,147,26,0.4)"><img src="photo/Bitcoin.svg" alt="Bitcoin icon" class="icon-btc"></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">₿ 42.5</div><div class="c-card-badge" style="color:#86efac">+8.2%</div></div>
+          </div>
+          <!-- ETH -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(98,126,234,0.55),rgba(255,255,255,0.15));border:1px solid rgba(138,158,245,0.7);box-shadow:0 4px 28px rgba(98,126,234,0.5)">
+            <div class="c-card-top"><div><div class="c-card-name">Ethereum</div><div class="c-card-ticker">ETH</div></div>
+            <div class="c-card-icon" style="background:rgba(138,158,245,0.2);border:1px solid rgba(138,158,245,0.4)"><img src="photo/Ethereum.png" alt="Ethereum icon"></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">Ξ 850</div><div class="c-card-badge" style="color:#8a9ef5">Staked</div></div>
+          </div>
+          <!-- SOL -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(20,241,149,0.45),rgba(255,255,255,0.15));border:1px solid rgba(20,241,149,0.65);box-shadow:0 4px 28px rgba(20,241,149,0.5)">
+            <div class="c-card-top"><div><div class="c-card-name">Solana</div><div class="c-card-ticker">SOL</div></div>
+            <div class="c-card-icon" style="background:#ffffff;border:1px solid rgba(255,255,255,0.95)"><img src="photo/Solana.png" alt="Solana icon"></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">◎ 12K</div><div class="c-card-badge" style="color:#14f195">+15.4%</div></div>
+          </div>
+          <!-- XRP -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(255,255,255,0.18),rgba(255,255,255,0.12));border:1px solid rgba(255,255,255,0.5);box-shadow:0 4px 28px rgba(255,255,255,0.2)">
+            <div class="c-card-top"><div><div class="c-card-name">Ripple</div><div class="c-card-ticker">XRP</div></div>
+            <div class="c-card-icon" style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35)"><img src="photo/xrp.png" alt="XRP icon"></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">580K</div><div class="c-card-badge" style="color:rgba(255,255,255,0.9)">XRP</div></div>
+          </div>
+          <!-- USDC -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(39,117,202,0.55),rgba(255,255,255,0.15));border:1px solid rgba(106,175,245,0.7);box-shadow:0 4px 28px rgba(39,117,202,0.5)">
+            <div class="c-card-top"><div><div class="c-card-name">USD Coin</div><div class="c-card-ticker">USDC</div></div>
+            <div class="c-card-icon" style="background:rgba(106,175,245,0.2);border:1px solid rgba(106,175,245,0.4)"><img src="photo/USDC.png" alt="USDC icon" class="icon-usdc"></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">$2.4M</div><div class="c-card-badge" style="color:#6aaff5">Stable</div></div>
+          </div>
+          <!-- USDT -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(38,161,123,0.55),rgba(255,255,255,0.15));border:1px solid rgba(38,161,123,0.7);box-shadow:0 4px 28px rgba(38,161,123,0.5)">
+            <div class="c-card-top"><div><div class="c-card-name">Tether</div><div class="c-card-ticker">USDT</div></div>
+            <div class="c-card-icon" style="background:#ffffff;border:1px solid rgba(255,255,255,0.95)"><img src="photo/usdt.svg" alt="Tether icon" class="icon-usdt"></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">$1.8M</div><div class="c-card-badge" style="color:#2fce9c">1:1 USD</div></div>
+          </div>
+          <!-- HYPE -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(217,70,239,0.5),rgba(255,255,255,0.15));border:1px solid rgba(232,121,249,0.7);box-shadow:0 4px 28px rgba(217,70,239,0.5)">
+            <div class="c-card-top"><div><div class="c-card-name">HYPE</div><div class="c-card-ticker">HYPE</div></div>
+            <div class="c-card-icon" style="background:rgba(10,12,20,0.96);border:1px solid rgba(255,255,255,0.14)"><img src="photo/HYPE.png" alt="HYPE icon" class="icon-hype"></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">325K</div><div class="c-card-badge" style="color:#e879f9">+42.8%</div></div>
+          </div>
+          <!-- CUSTODY METHOD -->
+          <div class="c-card c-card-custody" style="background:linear-gradient(135deg,rgba(168,184,201,0.4),rgba(255,255,255,0.15));border:1px solid rgba(197,210,223,0.65);box-shadow:0 4px 28px rgba(168,184,201,0.4)">
+            <div class="c-card-top"><div><div class="c-card-name">保管方式</div><div class="c-card-ticker">CUSTODY</div></div>
+            <div class="c-card-icon" style="background:rgba(197,210,223,0.2);border:1px solid rgba(197,210,223,0.4)"><svg viewBox="0 0 24 24" stroke="#c5d2df" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 12h6"/><path d="M12 9v6"/></svg></div></div>
+            <div class="c-card-bottom"><div class="c-card-value">マルチシグ</div><div class="c-card-badge" style="color:#c5d2df">コールドウォレット保管</div></div>
+          </div>
+          <!-- duplicate for seamless loop (first 4) -->
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(247,147,26,0.55),rgba(255,255,255,0.15));border:1px solid rgba(247,147,26,0.7);box-shadow:0 4px 28px rgba(247,147,26,0.5)"><div class="c-card-top"><div><div class="c-card-name">Bitcoin</div><div class="c-card-ticker">BTC</div></div><div class="c-card-icon" style="background:rgba(247,147,26,0.2)"><img src="photo/Bitcoin.svg" alt="Bitcoin icon" class="icon-btc"></div></div><div class="c-card-bottom"><div class="c-card-value">₿ 42.5</div><div class="c-card-badge" style="color:#86efac">+8.2%</div></div></div>
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(98,126,234,0.55),rgba(255,255,255,0.15));border:1px solid rgba(138,158,245,0.7);box-shadow:0 4px 28px rgba(98,126,234,0.5)"><div class="c-card-top"><div><div class="c-card-name">Ethereum</div><div class="c-card-ticker">ETH</div></div><div class="c-card-icon" style="background:rgba(138,158,245,0.2)"><img src="photo/Ethereum.png" alt="Ethereum icon"></div></div><div class="c-card-bottom"><div class="c-card-value">Ξ 850</div><div class="c-card-badge" style="color:#8a9ef5">Staked</div></div></div>
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(20,241,149,0.45),rgba(255,255,255,0.15));border:1px solid rgba(20,241,149,0.65);box-shadow:0 4px 28px rgba(20,241,149,0.5)"><div class="c-card-top"><div><div class="c-card-name">Solana</div><div class="c-card-ticker">SOL</div></div><div class="c-card-icon" style="background:#ffffff"><img src="photo/Solana.png" alt="Solana icon"></div></div><div class="c-card-bottom"><div class="c-card-value">◎ 12K</div><div class="c-card-badge" style="color:#14f195">+15.4%</div></div></div>
+          <div class="c-card" style="background:linear-gradient(135deg,rgba(217,70,239,0.5),rgba(255,255,255,0.15));border:1px solid rgba(232,121,249,0.7);box-shadow:0 4px 28px rgba(217,70,239,0.5)"><div class="c-card-top"><div><div class="c-card-name">HYPE</div><div class="c-card-ticker">HYPE</div></div><div class="c-card-icon" style="background:rgba(10,12,20,0.96)"><img src="photo/HYPE.png" alt="HYPE icon" class="icon-hype"></div></div><div class="c-card-bottom"><div class="c-card-value">325K</div><div class="c-card-badge" style="color:#e879f9">+42.8%</div></div></div>
+        </div>
+        <div class="carousel-fade carousel-fade-l"></div>
+        <div class="carousel-fade carousel-fade-r"></div>
+      </div>
+
+      <div class="hero-btns fade-in">
+        <a href="#contact" class="btn-primary">プライベート相談を予約 →</a>
+        <a href="#services" class="btn-outline">サービスを見る</a>
+      </div>
+    </div>
+
+    <!-- RIGHT: desktop card deck -->
+    <div class="hero-right">
+      <!-- Dynamic background glow -->
+      <div class="card-glow" style="background:rgba(247,147,26,0.35)"></div>
+
+      <!-- BTC card -->
+      <div class="deck-card" data-card="0" style="background:linear-gradient(135deg,rgba(255,255,255,0.15),rgba(255,255,255,0.05));border-color:rgba(255,255,255,0.3);box-shadow:0 30px 80px rgba(247,147,26,0.4)">
+        <div class="card-header">
+          <div><div class="card-name">Bitcoin</div><div class="card-ticker">BTC</div></div>
+          <div class="card-icon-box anim-spin" style="background:linear-gradient(135deg,#f7931a,#ff9f3a);box-shadow:0 10px 30px rgba(247,147,26,0.4)">
+            <img src="photo/Bitcoin.svg" alt="Bitcoin icon" class="icon-btc">
+          </div>
+        </div>
+        <div class="card-amount">₿ 42.5</div>
+        <div style="display:flex;align-items:center;gap:0.75rem">
+          <span class="card-badge card-badge-green">↗ +8.2%</span>
+          <span style="color:rgba(255,255,255,0.6);font-size:0.875rem">this month</span>
+        </div>
+      </div>
+
+      <!-- ETH card -->
+      <div class="deck-card" data-card="1" style="background:linear-gradient(135deg,rgba(45,88,70,0.3),rgba(30,58,95,0.3));border-color:rgba(98,126,234,0.4);box-shadow:0 30px 80px rgba(98,126,234,0.4)">
+        <div class="card-header">
+          <div><div class="card-name">Ethereum</div><div class="card-ticker">ETH</div></div>
+          <div class="card-icon-box anim-spin" style="background:linear-gradient(135deg,#627eea,#8a9ef5);box-shadow:0 10px 30px rgba(98,126,234,0.4)">
+            <img src="photo/Ethereum.png" alt="Ethereum icon">
+          </div>
+        </div>
+        <div class="card-amount">Ξ 850.3</div>
+        <div style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.35rem 0.85rem;background:rgba(98,126,234,0.2);border:1px solid rgba(98,126,234,0.3);border-radius:999px">
+          <div style="width:8px;height:8px;border-radius:50%;background:#627eea" class="anim-pulse-dot"></div>
+          <span style="color:rgba(255,255,255,0.85);font-size:0.8rem;font-weight:600">Staked &amp; Secured</span>
+        </div>
+      </div>
+
+      <!-- SOL card -->
+      <div class="deck-card" data-card="2" style="background:linear-gradient(135deg,rgba(20,241,149,0.2),rgba(153,69,255,0.2));border-color:rgba(20,241,149,0.4);box-shadow:0 30px 80px rgba(20,241,149,0.4)">
+        <div class="card-header">
+          <div><div class="card-name">Solana</div><div class="card-ticker">SOL</div></div>
+          <div class="card-icon-box anim-spin" style="background:#ffffff;box-shadow:0 10px 30px rgba(255,255,255,0.28)">
+            <img src="photo/Solana.png" alt="Solana icon">
+          </div>
+        </div>
+        <div class="card-amount">◎ 12,450</div>
+        <div style="display:flex;align-items:center;gap:0.75rem">
+          <span class="card-badge card-badge-cyan">↗ +15.4%</span>
+          <span style="color:rgba(255,255,255,0.6);font-size:0.875rem">this month</span>
+        </div>
+      </div>
+
+      <!-- XRP card -->
+      <div class="deck-card" data-card="3" style="background:linear-gradient(135deg,rgba(35,41,47,0.8),rgba(30,58,95,0.3));border-color:rgba(255,255,255,0.3);box-shadow:0 30px 80px rgba(255,255,255,0.3)">
+        <div class="card-header">
+          <div><div class="card-name">Ripple</div><div class="card-ticker">XRP</div></div>
+          <div class="card-icon-box anim-spin" style="background:linear-gradient(135deg,white,#a8b8c9);box-shadow:0 10px 30px rgba(255,255,255,0.3)">
+            <img src="photo/xrp.png" alt="XRP icon">
+          </div>
+        </div>
+        <div class="card-amount">580,000</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:0.875rem">Cross-border Ready</div>
+      </div>
+
+      <!-- USDC card -->
+      <div class="deck-card" data-card="4" style="background:linear-gradient(135deg,rgba(39,117,202,0.3),rgba(30,58,95,0.3));border-color:rgba(39,117,202,0.4);box-shadow:0 30px 80px rgba(39,117,202,0.4)">
+        <div class="card-header">
+          <div><div class="card-name">USD Coin</div><div class="card-ticker">USDC</div></div>
+          <div class="card-icon-box anim-spin" style="background:linear-gradient(135deg,#2775ca,#4a90e2);box-shadow:0 10px 30px rgba(39,117,202,0.4)">
+            <img src="photo/USDC.png" alt="USDC icon" class="icon-usdc">
+          </div>
+        </div>
+        <div class="card-amount">$2.4M</div>
+        <div style="color:rgba(255,255,255,0.7);font-size:0.875rem">Stable Reserve</div>
+      </div>
+
+      <!-- USDT card -->
+      <div class="deck-card" data-card="5" style="background:linear-gradient(135deg,rgba(38,161,123,0.3),rgba(0,147,147,0.2));border-color:rgba(38,161,123,0.4);box-shadow:0 30px 80px rgba(38,161,123,0.4)">
+        <div class="card-header">
+          <div><div class="card-name">Tether</div><div class="card-ticker">USDT</div></div>
+          <div class="card-icon-box anim-spin" style="background:#ffffff;box-shadow:0 10px 30px rgba(255,255,255,0.28)">
+            <img src="photo/usdt.svg" alt="Tether icon" class="icon-usdt">
+          </div>
+        </div>
+        <div class="card-amount">$1.8M</div>
+        <div style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.35rem 0.85rem;background:rgba(38,161,123,0.2);border:1px solid rgba(38,161,123,0.3);border-radius:999px">
+          <div style="width:8px;height:8px;border-radius:50%;background:#26a17b" class="anim-pulse-dot"></div>
+          <span style="color:rgba(255,255,255,0.85);font-size:0.8rem;font-weight:600">1:1 USD Backed</span>
+        </div>
+      </div>
+
+      <!-- HYPE card -->
+      <div class="deck-card" data-card="6" style="background:linear-gradient(135deg,rgba(217,70,239,0.3),rgba(139,92,246,0.3));border-color:rgba(217,70,239,0.4);box-shadow:0 30px 80px rgba(217,70,239,0.4)">
+        <div class="card-header">
+          <div><div class="card-name">HYPE</div><div class="card-ticker">HYPE</div></div>
+          <div class="card-icon-box anim-spin" style="background:linear-gradient(135deg,#090b14,#171a2b);box-shadow:0 10px 30px rgba(8,10,18,0.55)">
+            <img src="photo/HYPE.png" alt="HYPE icon" class="icon-hype">
+          </div>
+        </div>
+        <div class="card-amount">325,000</div>
+        <div style="display:flex;align-items:center;gap:0.75rem">
+          <span class="card-badge card-badge-purple">↗ +42.8%</span>
+          <span style="color:rgba(255,255,255,0.6);font-size:0.875rem">this month</span>
+        </div>
+      </div>
+
+      <!-- CUSTODY card -->
+      <div class="deck-card deck-card-custody" data-card="7" style="background:linear-gradient(135deg,rgba(168,184,201,0.3),rgba(30,58,95,0.3));border-color:rgba(168,184,201,0.5);box-shadow:0 30px 80px rgba(168,184,201,0.5)">
+        <div class="custody-header">
+          <div class="card-icon-box card-icon-box-custody" style="background:linear-gradient(135deg,white,#a8b8c9)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#1e3a5f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 9v6"/><path d="M9 12h6"/></svg>
+          </div>
+          <div>
+            <div class="custody-title">保管設計</div>
+            <div class="custody-subtitle">マルチシグ・コールドウォレット保管</div>
+          </div>
+        </div>
+        <div class="lock-bar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#a8b8c9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>長期保全を目的とした保管体制</span>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.hero-inner -->
+
+  <div class="scroll-ind"><div class="scroll-dot"></div></div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section id="services" class="section-pad">
+  <div class="max-w">
+    <div class="section-header fade-in">
+      <div class="tag">Services</div>
+      <h2 class="section-h2">デジタル資産信託の<br />包括的ソリューション</h2>
+      <p class="section-p">次世代への確実な承継を実現する、5つの専門サービス</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-in">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>デジタル資産信託の設計</h3>
+        <p>暗号資産を信託財産として適切に組み込み、揺るぎない法的保護を確立いたします。</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>世代間承継の設計</h3>
+        <p>次世代へのシームレスな資産承継を実現する、盤石な信託構造を構築いたします。</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <h3>ガバナンス体制の構築</h3>
+        <p>受益者、保護者、管理体制を精緻に設計し、透明性の高い運営を保証いたします。</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <h3>カストディアン連携</h3>
+        <p>一流のカストディアンと連携し、機関投資家水準のセキュリティを提供いたします。</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+        <h3>レポーティング</h3>
+        <p>資産状況、ガバナンス実績を定期的にご報告し、完全な可視化を実現いたします。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROCESS ── -->
+<section id="process" class="section-pad">
+  <div class="max-w">
+    <div class="section-header fade-in">
+      <div class="tag">Process</div>
+      <h2 class="section-h2" style="font-size:clamp(1.8rem,3.5vw,3rem)">仕組みの説明</h2>
+      <p class="section-p">4つのステップで、デジタル資産の信託構造を構築します</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-card fade-in"><div class="process-num">01</div><div class="process-icon-box"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3>綿密なヒアリング</h3><p>お客様の資産状況、承継のご意向、ガバナンスニーズを丁寧にお伺いいたします。</p></div>
+      <div class="process-card fade-in"><div class="process-num">02</div><div class="process-icon-box"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><h3>信託構造の設計</h3><p>最適な信託スキーム、受益者設定、ガバナンス体制を精緻に設計いたします。</p></div>
+      <div class="process-card fade-in"><div class="process-num">03</div><div class="process-icon-box"><svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div><h3>機関連携</h3><p>一流のカストディアンと連携し、堅牢な保管・執行体制を構築いたします。</p></div>
+      <div class="process-card fade-in"><div class="process-num">04</div><div class="process-icon-box"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div><h3>継続的な管理</h3><p>資産状況の完全な可視化と、定期的な報告体制を永続的に提供いたします。</p></div>
+    </div>
+    <div class="process-note fade-in">
+      <div class="process-note-icon">💡</div>
+      <div><h4>取引所ではなく、信託構造</h4><p>当社は暗号資産取引所ではございません。資産の保管・執行は外部の一流機関が担い、当社は信託設計、ガバナンス管理、継続的なレポーティングに特化しております。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── OPERATING FRAMEWORK ── -->
+<section id="operating" class="section-pad">
+  <div class="max-w">
+    <div class="section-header fade-in">
+      <div class="tag">Operating Framework</div>
+      <h2 class="section-h2" style="font-size:clamp(1.8rem,3.5vw,3rem)">運用体制</h2>
+      <p class="section-p">役割を分けて運用することで、安全性と透明性を両立します</p>
+    </div>
+    <div class="op-intro fade-in"><h3>当社が直接資産を保管しない中立的な運用</h3><p>資産の保管は保管パートナー、売買執行は執行パートナーが担当します。当社は信託設計とガバナンス管理、レポーティングに専念し、利益相反を避けながらお客様の利益を最優先にします。</p></div>
+    <div class="op-grid">
+      <div>
+        <div class="op-role fade-in"><div class="op-dot" style="background:rgba(30,58,95,0.1)"><div class="op-dot-inner" style="background:var(--primary)"></div></div><div><h4>Sentinel Trust</h4><div class="role-sub">信託設計・ガバナンス・レポーティング</div><ul><li>信託構造の設計</li><li>受益者・ガバナンス設計</li><li>資産可視化</li><li>定期報告</li></ul></div></div>
+        <div class="op-role fade-in"><div class="op-dot" style="background:rgba(45,88,70,0.1)"><div class="op-dot-inner" style="background:var(--secondary)"></div></div><div><h4>保管パートナー</h4><div class="role-sub">資産の保管</div><ul><li>資産の安全保管</li><li>コールドウォレット管理</li><li>マルチシグ対応</li><li>監査対応</li></ul></div></div>
+        <div class="op-role fade-in"><div class="op-dot" style="background:rgba(168,184,201,0.2)"><div class="op-dot-inner" style="background:var(--accent)"></div></div><div><h4>執行パートナー</h4><div class="role-sub">売買執行</div><ul><li>取引執行</li><li>規制対応</li><li>KYC/AML対応</li><li>取引報告</li></ul></div></div>
+      </div>
+      <div class="op-img fade-in"><img src="photo/custom/secure.png" alt="Security" loading="lazy" /></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TARGET CUSTOMERS ── -->
+<section id="target" class="section-pad">
+  <div class="max-w">
+    <div class="section-header fade-in">
+      <div class="tag">Target Customers</div>
+      <h2 class="section-h2" style="font-size:clamp(1.8rem,3.5vw,3rem)">対象顧客</h2>
+      <p class="section-p">世界中の富裕層が、デジタル資産の保全と承継のために当社を選んでいます</p>
+    </div>
+    <div class="target-grid">
+      <div class="target-card fade-in"><div class="target-icon"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h3>起業家</h3><p>デジタル資産で成功を収めた起業家の資産保全を万全にサポートいたします。</p></div>
+      <div class="target-card fade-in"><div class="target-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>ファミリーオフィス</h3><p>複数世代にわたる資産管理と、確実な承継設計をご提供いたします。</p></div>
+      <div class="target-card fade-in"><div class="target-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><h3>長期保有投資家</h3><p>ビットコイン等を長期保有される投資家の資産保護を実現いたします。</p></div>
+      <div class="target-card fade-in"><div class="target-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3>国際資産保有家族</h3><p>クロスボーダーでの資産管理と、税務対応を完全サポートいたします。</p></div>
+      <div class="target-card fade-in"><div class="target-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h3>次世代承継を考える富裕層</h3><p>相続や事業承継を見据えた、盤石な資産設計をご提供いたします。</p></div>
+      <div class="target-amount fade-in"><div class="target-amount-val">$10M+</div><p>最低資産要件</p><small>プライベートバンクレベルの<br />サービスを提供します</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section id="faq" class="section-pad">
+  <div class="max-w">
+    <div class="section-header fade-in">
+      <div class="tag">FAQ</div>
+      <h2 class="section-h2" style="font-size:clamp(1.8rem,3.5vw,3rem)">よくあるご質問</h2>
+      <p class="section-p">デジタル資産信託サービスについて、よくお寄せいただくご質問にお答えします</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>これは暗号資産取引所ですか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">いいえ、当社は暗号資産取引所ではありません。私たちは信託構造を用いた資産保全・承継サービスを提供しています。</div></div>
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>当社が直接資産を預かりますか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">いいえ、当社は資産を直接保管しません。資産の保管は外部の規制カストディアンが担当し、売買執行は規制業者が行います。</div></div>
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>暗号資産を相続設計に組み込めますか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">はい、可能です。Bitcoin、Ethereum、ステーブルコインなどのデジタル資産を信託財産として組み込み、法的保護を確立します。</div></div>
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>家族ごとに閲覧範囲を分けられますか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">はい、受益者・保護者・家族関係者ごとに閲覧権限を設定できます。プライバシーとガバナンスの両立を実現します。</div></div>
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>受益者はどう設定されますか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">初期のヒアリングにて詳細を伺い、複数世代にわたる承継、条件付き受益権など、柔軟な設計が可能です。</div></div>
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>どのような報告を受けられますか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">資産状況、取引履歴、ガバナンス状況を定期的に報告します。頻度はニーズに応じてカスタマイズ可能です。</div></div>
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>クロスボーダーでの資産管理に対応していますか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">はい、シンガポールを拠点に25以上の国・地域での規制対応に精通しています。</div></div>
+      <div class="faq-item fade-in"><button class="faq-q" onclick="toggleFaq(this)"><span>最低資産要件はありますか？</span><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></button><div class="faq-a">はい、$10M以上の資産をお持ちの富裕層を対象としています。プライベートバンクレベルのサービスを提供するためです。</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FINAL CTA ── -->
+<section id="contact">
+  <div class="cta-orb1"></div><div class="cta-orb2"></div><div class="cta-dots"></div>
+  <div class="cta-inner">
+    <div class="about-float-wrap cta-float-wrap" aria-hidden="true">
+      <div class="about-float-track">
+        <div class="about-float-group">
+          <div class="about-float-coin about-float-coin--btc"><img src="photo/Bitcoin.svg" alt=""></div>
+          <div class="about-float-coin about-float-coin--eth"><img src="photo/Ethereum.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--usdt"><img src="photo/usdt.svg" alt=""></div>
+          <div class="about-float-coin about-float-coin--xrp"><img src="photo/xrp.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--sol"><img src="photo/Solana.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--usdc"><img src="photo/USDC.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--hype"><img src="photo/HYPE.png" alt=""></div>
+        </div>
+        <div class="about-float-group" aria-hidden="true">
+          <div class="about-float-coin about-float-coin--btc"><img src="photo/Bitcoin.svg" alt=""></div>
+          <div class="about-float-coin about-float-coin--eth"><img src="photo/Ethereum.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--usdt"><img src="photo/usdt.svg" alt=""></div>
+          <div class="about-float-coin about-float-coin--xrp"><img src="photo/xrp.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--sol"><img src="photo/Solana.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--usdc"><img src="photo/USDC.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--hype"><img src="photo/HYPE.png" alt=""></div>
+        </div>
+        <div class="about-float-group" aria-hidden="true">
+          <div class="about-float-coin about-float-coin--btc"><img src="photo/Bitcoin.svg" alt=""></div>
+          <div class="about-float-coin about-float-coin--eth"><img src="photo/Ethereum.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--usdt"><img src="photo/usdt.svg" alt=""></div>
+          <div class="about-float-coin about-float-coin--xrp"><img src="photo/xrp.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--sol"><img src="photo/Solana.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--usdc"><img src="photo/USDC.png" alt=""></div>
+          <div class="about-float-coin about-float-coin--hype"><img src="photo/HYPE.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="cta-two-col">
+      <div>
+        <div class="cta-tag fade-in">Get Started</div>
+        <h2 class="cta-h2 fade-in">デジタル資産承継を<br /><span>確かな信託で。</span></h2>
+        <p class="cta-p fade-in">世代を超えて受け継ぐべき資産を、揺るぎない信託構造で守ります。まずはプライベート相談をご予約ください。</p>
+        <div class="cta-img cta-img-mobile fade-in">
+          <img src="photo/custom/atlas_family.png" alt="Atlas family" loading="lazy" />
+          <div class="cta-img-overlay"></div>
+        </div>
+        <div class="cta-btns fade-in">
+          <a href="mailto:contact@atlasreserve.sg" class="btn-primary">プライベート相談を予約 →</a>
+          <a href="#" class="btn-outline">📄 資料請求</a>
+        </div>
+        <div class="cta-contacts fade-in">
+          <div><label>Email</label><a href="mailto:contact@atlasreserve.sg">contact@atlasreserve.sg</a></div>
+          <div><label>Phone</label><a href="tel:+6565551234">+65 6555 1234</a></div>
+        </div>
+      </div>
+      <div class="cta-img fade-in">
+        <img src="photo/custom/atlas_family.png" alt="Atlas family" loading="lazy" />
+        <div class="cta-img-overlay"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid-bg"></div>
+  <div class="footer-inner">
+    <div class="footer-cols">
+      <div>
+        <div class="footer-logo">
+          <div class="footer-logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" class="logo-mark">
+              <text x="14" y="45" font-size="38" font-weight="700" font-family="Georgia, serif" fill="currentColor">A</text>
+              <path d="M47.8 12.2l2.3 4.8 5.3.7-3.8 3.7.9 5.2-4.7-2.5-4.7 2.5.9-5.2-3.8-3.7 5.3-.7z"/>
+            </svg>
+          </div>
+          <div><div class="footer-logo-text">Atlas Reserve</div><div class="footer-logo-sub">SINGAPORE</div></div>
+        </div>
+        <p class="footer-desc">シンガポールを拠点とする、デジタル資産に特化した信託サービス。世代を超えた資産承継の実現をお約束します。</p>
+        <div class="footer-addr"><div>• 1 Raffles Place, #40-01</div><div>• Singapore 048616</div></div>
+      </div>
+      <div class="footer-col"><h4>サービス</h4><ul><li><a href="#services">信託設計</a></li><li><a href="#services">相続・承継設計</a></li><li><a href="#services">ガバナンス管理</a></li><li><a href="#services">レポーティング</a></li></ul></div>
+      <div class="footer-col"><h4>企業情報</h4><ul><li><a href="#operating">運用体制</a></li><li><a href="#">プライバシーポリシー</a></li><li><a href="#">利用規約</a></li><li><a href="#contact">お問い合わせ</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 Atlas Reserve. All rights reserved.</div>
+      <div class="footer-badges">
+        <div class="footer-badge"><div class="footer-badge-dot"></div> Regulated by <strong>MAS Singapore</strong></div>
+        <div class="footer-badge"><div class="footer-badge-dot"></div> <strong>ISO 27001</strong> Certified</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
