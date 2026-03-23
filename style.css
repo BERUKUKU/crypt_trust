@@ -276,7 +276,7 @@ nav a:hover::after { transform: scaleX(1); }
 @media (max-width: 900px) {
   .hero-inner {
     grid-template-columns: 1fr;
-    padding: 6rem 1.25rem 3rem;
+    padding: 3.15rem 1.25rem 2.6rem;
   }
 
   .hero-left {
@@ -1540,7 +1540,7 @@ footer::before {
   }
 
   .hero-inner {
-    padding-top: 5.7rem;
+    padding-top: 2.15rem;
     padding-bottom: 2.6rem;
     grid-template-columns: 1fr !important;
   }
@@ -1684,6 +1684,41 @@ footer::before {
   .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+/* Mobile fixed consult CTA */
+.mobile-consult-fixed {
+  display: none;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  z-index: 140;
+  width: min(540px, calc(100vw - 24px));
+  text-align: center;
+  padding: 0.92rem 1.15rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.98rem;
+  letter-spacing: 0.01em;
+  color: #0b1626;
+  background: linear-gradient(135deg, #7ee3e4, #b99cf7);
+  box-shadow: 0 16px 40px rgba(15, 34, 58, 0.32);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+@media (max-width: 900px) {
+  body {
+    padding-bottom: 88px;
+  }
+
+  .mobile-consult-fixed {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
