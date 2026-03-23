@@ -29,7 +29,7 @@ window.addEventListener('scroll', () => {
 /* ── Desktop card deck cycling ── */
 (function() {
   const INTERVAL = 2000;
-  const DESKTOP_MQ = '(min-width: 1280px)';
+  const DESKTOP_MQ = '(min-width: 901px)';
   const mql = window.matchMedia(DESKTOP_MQ);
 
   const GLOW_COLORS = [
